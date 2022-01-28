@@ -1,0 +1,15 @@
+<resources>
+
+    <color name="pitch_black">#FF000000</color>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+        <!-- API 14 theme customizations can go here. -->
+        <item name="android:windowBackground">@color/pitch_black</item>
+    </style>
+
+</resources>
